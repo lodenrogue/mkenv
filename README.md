@@ -1,6 +1,6 @@
 # mkenv
 
-##### Python venv Quality of Life Enhancement
+##### Python venv quality of life enhancement
 
 ### Usage (dot makenv):
 
