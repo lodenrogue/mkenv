@@ -4,13 +4,13 @@
 
 ### Usage:
 
-1. Creates and activates a virtual environment with the name venv
+1. Creates (if it doesn't exist) and activates a virtual environment with the name venv
 
 ``` bash
 $ source mkenv
 ```
 
-2. Creates and activates a virtual environment with the given name
+2. Creates (if it doesn't exist) and activates a virtual environment with the given name
 
 ``` bash
 $ source mkenv <name>
