@@ -2,7 +2,7 @@
 
 ##### Python venv quality of life enhancement
 
-### Usage (dot makenv):
+### Usage (dot mkenv):
 
 1. Creates (if it doesn't exist) and activates a virtual environment with the name venv
 
