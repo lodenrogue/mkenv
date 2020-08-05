@@ -1,0 +1,18 @@
+#! /bin/bash
+
+mkenv_default_env='venv'
+
+if [ -z $1 ]; then
+	mkenv_env=$mkenv_default_env
+else
+	mkenv_env=$1
+fi
+
+if [ ! -d $mkenv_env ]; then
+	python3 -m venv $mkenv_env
+fi
+
+source $mkenv_env/bin/activate
+
+unset mkenv_default_env
+unset mkenv_env
