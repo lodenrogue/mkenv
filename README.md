@@ -1,6 +1,6 @@
 # mkenv
 
-##### Easy Python Virtual Environments
+##### Python venv Quality of Life Enhancement
 
 ### Usage:
 
@@ -15,3 +15,7 @@ $ source mkenv
 ``` bash
 $ source mkenv <name>
 ```
+
+### Dependencies:
+
+Requires python venv to be installed
